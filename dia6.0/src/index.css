@@ -44,6 +44,12 @@
   align-items: center;
   margin-top: 15px;
 }
+.page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .input {
   width: 100%;
@@ -72,6 +78,7 @@
   flex-direction: row;
   justify-content: center;
   margin-bottom: 3em;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -81,7 +88,7 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 45px;
+  margin: 80px;
 }
 .card-title {
   color: white;
@@ -89,6 +96,7 @@
   display: flex;
   justify-content: center;
   font-family: Magra;
+  text-align: center;
   margin-top: 45px;
 }
 .card-body {
@@ -97,6 +105,16 @@
   align-items: center;
   flex-direction: column;
   font-family: Magra;
-  margin-top: 53px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.deletebutton {
+  width: 32px;
+  height: 43px;
+  background-color: #00ced1;
+  border: 0;
+  background-image: url("./Assets/trash-icon.png");
+  margin-left: 200px;
+  margin-top: 5px;
+  position: absolute;
 }
